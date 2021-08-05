@@ -1,0 +1,255 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body,html{
+    
+    background-color:#D9E3EB;
+    font-family: var(--bs-font-sans-serif);
+    font-weight: 400;
+ 
+
+   
+}
+.body_background{
+
+height:auto;   display:flex;
+flex-direction: column;
+background-color:#D9E3EB;
+    
+}
+.navbar-toggler{
+    background-color: none;
+}
+a.nav_link:hover{
+    color:black !important;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.site-footer{
+    background-color: #26272b;
+    padding:45px 0 20px;
+    font-size:15px;
+    color:#737373;
+    line-height:24px;
+    flex: 0 0 50px;/*or just height:50px;*/
+    margin-top: auto;
+  
+
+}
+
+.copyright-text
+{
+    margin:0;
+}
+.copyright-text a:hover {
+    text-decoration: none;
+}
+.site-footer a{
+    color:#737373;
+}
+.site-footer .social-icons a{
+    width:40px;
+    height:40px;
+    line-height: 40px;
+    border-radius: 100%;
+    background-color: #33353d;
+    margin-left:10px;
+    margin-right:0;
+    padding:10px
+}
+.social-icons a{
+    color: #818a91;
+    font-size:16px;
+    transition: all .2s linear;
+
+}
+.social-icons .facebook:hover{
+    background-color: #4267B2;
+    color:#ffffff
+}
+.social-icons .twitter:hover{
+    background-color:#0dcaf0;
+    color: white;
+}
+.social-icons .dribbble:hover{
+    background-color:#ea4c89;
+    color:white;
+}
+.social-icons .linkedin:hover{
+    background-color: #0e76a8 ;
+    color:white;
+}
+
+.site-footer .social-icons{
+    text-align:right;
+}
+.social-icons{
+    list-style:none;
+    padding-left:0;
+    margin-bottom:0;
+}
+.social-icons li {
+    display:inline-block;
+    margin-bottom:4px;
+}
+.navbar_link--active {
+    color:red;
+}
+
+.card{
+    display:flex;
+    word-wrap: break-word;
+    flex-direction: column;
+    background-color:#fff;
+    background-clip:border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius:.25em;
+    
+}
+.card-header{
+    padding:.5rem .1rem;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.mb-0{
+    margin: 0 !important;
+}
+.card-title{
+    font-weight:200;
+}
+.float-end{
+    float:right;
+}
+.btn-outline-info{
+    color:#0dcaf0 !important;
+    border-color:#0dcaf0  !important;
+}
+.btn-outline-info:hover{
+    color:#040000 !important;
+    background-color:#0dcaf0 !important;
+}
+
+.row{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y:0;
+    display:flex;
+    margin-top:1.5rem*-1;
+    margin-right: 1.5rem/-2 !important;
+    margin-left:1.5rem/-2  !important;
+}
+form{
+    margin-top:30px;
+    padding-top:10px;
+    font-size:14px;
+
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 34px;
+    height: 20px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 5px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 1px;
+    bottom: 0;
+    background-color: white;
+    -webkit-transition: .1s;
+    transition: .1s ;
+  }
+ 
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(16px);
+    -ms-transform: translateX(16px);
+    transform: translateX(16px);
+  }
+  
+  /* Validation Try */
+
+  /* input:invalid {
+    border: 2px dashed red;
+  } */
+  
+  /* input:invalid:required {
+    background-image: linear-gradient(to right, pink, lightgreen);
+  } */
+  
+  input:valid {
+    border: 2px solid black;
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+ .btn-close{
+    position:absolute;
+    right:0;
+    
+    color:#000;
+    box-sizing:content-box;
+   border:0;
+   border-radius:.25rem;
+   opacity: .5;
+   font-weight:600;
+   width:1em;
+   height:1em;
+
+  }
+  .btn-close:hover{
+      font-weight:bold;
+  }
+  .alert-dismissible{
+    padding:1.25rem 1rem;
+    position:relative;
+    
+
+
+  }
+
+  .alert-show{
+      display:block;
+  }
+.alert-hide{
+    display:none;
+
+}
+
+
+/* Dashboard Design Attempt */
